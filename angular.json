@@ -100,6 +100,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "fantasyf1:build:production",
+            "firebaseProject": "fantasy-f1-14fda",
+            "firebaseHostingSite": "fantasy-f1-14fda"
+          }
         }
       }
     }

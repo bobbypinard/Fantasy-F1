@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "fantasy-f1-14fda"
+  },
+  "targets": {
+    "fantasy-f1-14fda": {
+      "hosting": {
+        "fantasyf1": [
+          "fantasy-f1-14fda"
+        ]
+      }
+    }
+  }
+}
